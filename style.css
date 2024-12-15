@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#discount-image{
+    width: 100%;
+    height: 77px;
+}
+.konga-icon{
+    width: 100px;
+}
+.konga-icon-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f70776; /* Pink background color */
+    padding: 10px 20px;
+    color: white;
+}
+.konga-logo{
+    width: 150px;
+}
+
+.icons{
+    width: 25px;
+}
+.icon{
+    width: 25px;
+    margin-top: 7px;
+}
+.input{
+    width: 40%;
+}
+.menu{
+    margin-left: 100px;
+}
+
+.menu a {
+    color: white;
+    font-size: 13px;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu a:hover {
+    text-decoration: underline;
+}
+.help-option{
+    background-color: none;
+}
+
+
+/* styles.css */
+
+
+.konga-text {
+    font-weight: bold;
+}
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0 20px;
+    max-width: 600px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.search-bar button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: darkorange;
+}
+
+.user-options {
+    display: flex;
+    align-items: center;
+}
+
+.user-options a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.user-options a:hover {
+    text-decoration: underline;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    background-color: green;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+}
+
+.cart-count {
+    background-color: white;
+    color: green;
+    font-weight: bold;
+    padding: 0 5px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.container3{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 70px;
+    background-color: #931949;
+    color: white;
+    font-size: 12px;
+}
+#categories{
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+}
+#categories p{
+    margin-top: 3px;
+    font-weight: 700;
+}
+.menu-icon{
+    width: 20px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 2px;
+}
+.navbar-container{
+    position: sticky;
+    top: 10;
+}
+.row{
+    display: flex; 
+    flex-wrap: nowrap; 
+    height: 64vh;
+    margin: 20px 55px;
+}
+.column4{
+    flex: 2.3;
+}
+.column3{
+    flex: 1;  
+}
+.column1{
+    width:135vh;
+    height: 63vh;
+    border-radius: 5px;
+}
+.column2{
+    width: 215px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.discount-image1{
+    display: flex;
+    
+}
+.naija-deals{
+    width: 100%;
+    margin: 0px 0px;
+}
+.stores-icons{
+    width: 170px;
+    height: 6vh;
+}
+.container4{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 70px 20px 70px;
+    border-radius: 5px;
+}
+.container5{
+    display: flex;
+    border-radius: 5px;
+    width: 95%;
+    background-color: #931949;
+    margin: 0px auto 10px auto;
+    padding: 8px;
+    color: white;
+}
+.container5 p{
+    font-size: 33px;
+    font-weight: 900;
+    padding: 0px 10px;
+}
+.container5 a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.container5 a:hover{
+    text-decoration: underline;
+}
+.container6{
+    background-color: whitesmoke;
+}
+.product img{
+    width: 100px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 0 7px;
+    padding: 20px;
+    background-color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 7px;
+}
+.product:hover{
+    box-shadow: 7px 7px 7px #bbbaba;
+    transform: scale(1.01);
+}
+.product-title{
+    padding: 10px;
+}
+.title-1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.span1{
+    font-size: 20px;
+    font-weight: 900;
+}
+.span2{
+    font-size: 14px;
+    color: grey;
+    text-decoration: line-through;
+    padding: 0 10px;
+    
+}
+.span3{
+    font-size: 9px;
+    color: #8a0f0f;
+    background: rgb(237, 198, 198);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.title-2{
+    margin-bottom: 20px;
+}
+.title-3{
+    color: green;
+    font-size: 14px;
+}
+.product-container{
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-around;
+}
+.product-container2{
+    display: flex;
+    margin: 20px 30px;
+    justify-content: space-evenly;
+    overflow: scroll hidden ;
+    gap:10px
+}
+.sponsored-product img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+.sponsored-product{
+    padding: 20px 7px;
+    background-color: white;
+    border-radius: 5px;
+    height: 50vh;
+    min-width: 18%;
+    margin-bottom: 10px;
+}
+.sponsored-product:hover{
+    box-shadow: 7px 7px 7px #bbbaba;
+    transform: scale(1.01);
+}
+.container6 h3{
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 10px 30px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(213, 208, 208);
+    background-color: whitesmoke;
+}
+.product-container3{
+    display: flex;
+    margin: 10px 30px;
+    justify-content: space-around;
+    background-color: white;
+}
+.product-container3 img{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    z-index: 9.99;
+    border-radius: 50%;
+}
+.product1{
+    margin: 20px 0;
+}
+.container7{
+    background-color: white;
+    margin: 10px 30px;
+}
+.container7 h3{
+    text-align: center;
+    border-radius: 5px;
+    width: 95%;
+    background-color: orange;
+    margin: 0px auto 10px auto;
+    padding: 13px;
+    color: black;
+}
+.product2{
+    margin: 20px 0;
+}
+.product-container4{
+    display: flex;
+    margin: 10px 30px 0px 30px;
+    justify-content: space-around;
+    background-color: white;
+}
+.product-container4 img{
+    width: 230px;
+}
+.product-container5{
+    display: flex;
+    margin: 0px 30px;
+    justify-content: space-around;
+    background-color: white;
+}
+.product-container5 img{
+    width: 230px;
+}
+.product3{
+    margin: 3px 0;
+}
+.image-container{
+       margin: 10px 30px;
+}
